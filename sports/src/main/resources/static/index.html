@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head> 
+    <title>Getting Started: Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  
+</head>
+<style>
+         body {
+background: url('/img/HomePage.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+	.rightcolumn {
+  float: left;
+  width: 35%;
+  padding: 10px;
+  margin: 30% 0px
+    }
+    
+.leftcolumn {
+  float: left;
+  width: 65%;
+  padding: 10px;
+  margin: 30% 0px
+    }
+    
+  .header {
+   position:   absolute;
+   top: 150px;
+   height: 250px;
+   }
+.footer {
+   position:   absolute;
+   bottom:  0px;
+   height: 250px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+p {
+  color: White;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 0 65px;
+}
+</style>
+
+
+<body>
+
+/*<div class="row" style="
+    height: 500px;
+    overflow: hidden;
+">*/
+  <div class="leftcolumn">
+  
+    <P> WELCOME TO ORION SPORTS </p>
+  </div>
+  <div class="rightcolumn">
+  <div class="header">
+    <table>
+    <caption>Table 1</caption>
+    <tr>
+    <td> <a href="templates/faCompetition.html" class="button"> <img src="/img/fa.png" alt="FootBall Association"></a></td>
+    <td> <a href="templates/aflCompetition.html" class="button"><img src="/img/afl.png" alt="Australian Football League"></a></td>
+    <td><a href="templates/mlbCompetition.html" class="button"><img src="/img/mlb.png" alt="Major League Baseball"></a></td> 
+  </tr>
+  </table>
+  </div>
+  <div class="footer">
+  <table>
+  <caption>Table 2</caption>
+  <tr>     
+    <td> <a href="templates/nrlCompetition.html" class="button"> <img src="/img/nrl.png" alt="National Rugby League"> </a></td>
+    <td> <a href="templates/nhlCompetition.html" class="button"> <img src="/img/nhl.png" alt="National Hockey League"></a></td>
+    <td> <a href="templates/Home.html" class="button"><img src="/img/fa.png" alt="Hong Kong Jockey Club"></a></td>      
+  </tr>
+</table>
+</div>
+     
+      
+      
+      
+  </div> 
+</div>  
+</body>
+</html>
